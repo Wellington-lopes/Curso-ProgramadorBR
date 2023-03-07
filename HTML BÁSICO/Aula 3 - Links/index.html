@@ -6,9 +6,27 @@
     </head>
     <body>
         <h1>Página Principal</h1>
-        <a href="/pagina1.html">Link para a página 1</a>
+        <a href="/pagina1.html" target="_blank">Link para a página 1</a>
         <br>
         <a href="http://localhost:5500/pagina2.html">Link para a página 2</a>
+
+        <!-- O elemento form coleta informações do usuario.
+        O atributo action indica para onde os dados do formulário devem ser 
+        enviados. Por exemplo, <form action="/submit-url"></form> informa ao 
+        navegador que os dados do formulário devem ser enviados para o caminho
+         /submit-url. -->
+
+         <!--O elemento input permite a você várias maneiras de coletar dados a
+         partir de um formulário da web. Assim como os elementos img, os elementos
+         input são de fechamento automático e não precisam de tags de fechamento.-->
+
+         <!--Existem muitos tipos de entradas (inputs) que você pode criar usando o 
+            atributo type. Você pode criar facilmente um campo de senha, um botão de 
+            redefinição ou um controle para permitir que os usuários selecionem um 
+            arquivo armazenado no computador.-->
+        <form action="/submit-url">
+            <input type="text">
+        </form>
         
     </body>
 
