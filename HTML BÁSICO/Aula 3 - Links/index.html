@@ -5,10 +5,12 @@
         <title>Links</title>
     </head>
     <body>
-        <h1>Página Principal</h1>
+        <h1>Página Principal</h1> 
         <a href="/pagina1.html" target="_blank">Link para a página 1</a>
         <br>
         <a href="http://localhost:5500/pagina2.html">Link para a página 2</a>
+<br>
+        <img src="https://cdn.shopify.com/s/files/1/0101/2947/3617/articles/fenrir_1000x.jpg?v=1647295007" alt="lobo Fenrir em um céu vermelho escarlate">
 
         <!-- O elemento form coleta informações do usuario.
         O atributo action indica para onde os dados do formulário devem ser 
@@ -24,8 +26,17 @@
             atributo type. Você pode criar facilmente um campo de senha, um botão de 
             redefinição ou um controle para permitir que os usuários selecionem um 
             arquivo armazenado no computador.-->
+
+        <!--Para evitar que um usuário envie o formulário quando as informações 
+            necessárias estiverem faltando, você precisa adicionar o atributo required 
+            a um elemento input. Não há a necessidade de definir um valor para o 
+            atributo required. Em vez disso, apenas adicione a palavra required 
+            obrigatório) ao elemento input, certificando-se de que haja um espaço
+            entre esse atributo e os outros.-->
+<br>
         <form action="/submit-url">
-            <input type="text">
+            <input type="text" name="e-mail" placeholder="Email adress" required="">
+            <button type="submit">Clique Aqui</button>
         </form>
         
     </body>
