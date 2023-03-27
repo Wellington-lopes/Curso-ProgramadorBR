@@ -1,4 +1,22 @@
 p{
+    color: aqua;
+    background-color: blue;
+}
+body{
+    /* background-image: url(./imagens/futebolbolas.jpg); */
+    /* background-image: url(./imagens/texturagreen.jpg);
+    background-attachment: fixed; */
+    background: green 
+    url(./imagens/texturagreen.jpg) 
+    no-repeat
+    fixed 
+    left;
+    background-size:cover;
+
+}
+
+h1{
+    /*background-image: url(./imagens/topo);*/
+    background-color: aquamarine;
     color: blue;
-    background-color: green;
 }
