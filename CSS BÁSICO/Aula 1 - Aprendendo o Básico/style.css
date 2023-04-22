@@ -1,8 +1,11 @@
 p{
     color: aqua;
     background-color: blue;
+    text-align: justify;
+    text-indent: 30px;
 }
-body{
+
+#pagIndex{
     /* background-image: url(./imagens/futebolbolas.jpg); */
     /* background-image: url(./imagens/texturagreen.jpg);
     background-attachment: fixed; */
@@ -19,4 +22,15 @@ h1{
     /*background-image: url(./imagens/topo);*/
     background-color: aquamarine;
     color: blue;
+    text-transform: uppercase;
+}
+
+.pag{
+    background: linear-gradient(to bottom right, yellow, greenyellow 10%, green)
+   
+
+}
+
+a{
+   color: yellow;
 }
