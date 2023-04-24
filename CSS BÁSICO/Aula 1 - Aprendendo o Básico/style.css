@@ -1,3 +1,8 @@
+body{
+    font-family: "Comic Sans MS", Arial;
+    margin: 0;
+    padding: 0;
+}
 p{
     color: aqua;
     background-color: blue;
@@ -23,6 +28,10 @@ h1{
     background-color: aquamarine;
     color: blue;
     text-transform: uppercase;
+    font-family: "Berkshire Swash", "Pinyon Script", Arial;
+    text-align: center;
+    border-style: solid;
+    
 }
 
 .pag{
@@ -33,4 +42,50 @@ h1{
 
 a{
    color: yellow;
+   text-decoration: none;
+   background-color: blueviolet;
+   padding: 5px;
+ }
+
+ a:visited{
+    background-color: black;
+ }
+
+ li{
+    margin: 20px;
+ }
+
+#blue{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    border: 10px solid greenyellow;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+}  
+
+#red{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+    border: 5px solid purple;
+    border-radius: 10px 40px;
+    box-sizing: border-box;
+    padding: 50px;
+    overflow: auto;
+}
+
+#yellow{
+    background-color: yellow;
+    width: 500px;
+    height: 300px;
+    border: 5px dashed red ;
+    box-sizing: border-box; 
+}
+
+#jogadores{
+    text-align: center;
 }
