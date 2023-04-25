@@ -45,11 +45,29 @@ a{
    text-decoration: none;
    background-color: blueviolet;
    padding: 5px;
+   border-radius: 10px;
  }
 
  a:visited{
     background-color: black;
  }
+
+ /*Quando o mouse está em cima = hover*/
+ a:hover{
+    padding: 10px;
+    background-color: rgb(188, 46, 213);
+ }
+
+/*Quando o usuário clicar = active*/
+ a:active{
+    background-color: rgb(70, 1, 139);
+ }
+
+ /*Da para mudar o style da lista usando qualquer imagem*/
+ul{
+    list-style-type: none;
+   /* list-style-image: url(./imagens/ball.png);*/
+}
 
  li{
     margin: 20px;
