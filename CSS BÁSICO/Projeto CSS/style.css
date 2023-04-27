@@ -91,6 +91,7 @@ font-size: 15px;
 
 footer{
     height: 150px;
+    width: 100vw;
     background-color: rgb(65, 61, 61);
 }
 
@@ -131,5 +132,12 @@ a:hover{
 
 a:active{
     color: blueviolet;
+}
+
+.direitos{
+    color: aliceblue;
+    text-align: end;
+    padding: 120px 10px 0 0;
+    font-size: 15px;
 }
 
