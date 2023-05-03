@@ -9,6 +9,7 @@ body{
 h1{
     font-size: 56px;
     line-height: 64px;
+    text-align: start;
 }
 
 h3{
@@ -51,15 +52,16 @@ h4{
     /*Alternativa para centralizar o texto
     margin-left: 20vw;
     margin-right: 20vw;*/
-    max-width: 888px;
+    max-width: 900px;
     margin: auto;
     padding: 0px 30px;
-    text-align: justify;
+   
 }
 
 figure{
     margin: 0   ;
 }
+
 .logos{
     width: 25px;
     margin: 5px 5px 5px 0;
@@ -71,9 +73,9 @@ main{
     margin-left: 30vw;
     margin-right: 30vw;*/
     max-width: 648px;
-    margin: auto;
+    margin: auto;   
     padding: 0px 30px;
-    text-align: justify;
+    text-align: start;
 }
 
 figure>img{
@@ -109,7 +111,7 @@ footer{
 }
 
 p{
-    text-align: justify;
+    text-align: start;
     font-size: 20px;
     line-height: 32px;
         
